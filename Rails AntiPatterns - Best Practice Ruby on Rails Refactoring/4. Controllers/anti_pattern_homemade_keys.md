@@ -8,3 +8,4 @@ What are you to do when faced with the need to add user authentication to an app
 ### Solution: Use Clearance
 
 ### Solution: Use Authlogic
+
