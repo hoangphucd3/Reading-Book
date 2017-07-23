@@ -48,8 +48,8 @@ explicit use of transactions, you’ve gone down the wrong path.
 The presenter sits between the Model layer and the
 View and Controller layers.
 
-A presenter is simply a plain old Ruby class that orchestrates the creation of multi-
-ple models. It can also take on the responsibility of sending emails or triggering other
+A presenter is simply a plain old Ruby class that orchestrates the creation of multiple models.
+It can also take on the responsibility of sending emails or triggering other
 events that would normally be shoehorned into a controller action.
 
 #### And Remember to Tip Your Waitress
@@ -57,8 +57,8 @@ events that would normally be shoehorned into a controller action.
 While you can move extra logic from your controllers into setters and callbacks on the
 primary model, there are times when that’s not the right path to take.
 
-Doing too much work in Active Record setters and callbacks can lead to unexpected behavior and con-
-voluted callback chains between different models.
+Doing too much work in Active Record setters and callbacks can lead to unexpected behavior and 
+convoluted callback chains between different models.
 
 At times like these, it’s useful to
 introduce a third-party object whose job is to manage the complexity on behalf of
