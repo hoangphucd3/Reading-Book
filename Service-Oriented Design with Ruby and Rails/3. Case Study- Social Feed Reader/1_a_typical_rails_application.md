@@ -1,0 +1,1 @@
+## A Typical Rails Application
