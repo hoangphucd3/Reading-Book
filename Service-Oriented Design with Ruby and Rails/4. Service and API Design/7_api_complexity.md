@@ -30,7 +30,7 @@ Code goes here
 For service clients, the advantage of using this approach is that the clients are able to get all
 the entries with a single request.
 There are potential disadvantages:
-- How do you deal with error conditionns? What if one of the requested IDs was not present in the system?
+- How do you deal with error conditions? What if one of the requested IDs was not present in the system?
 - It may complicate caching logic for the service.
 
 ### Multiple Models
