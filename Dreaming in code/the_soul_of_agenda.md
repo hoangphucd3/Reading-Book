@@ -1,7 +1,6 @@
 # The sould of Agenda
 
-Most participants in creation new software are either blissfully ignorant of the past or recklessly confident of the future
-- blithely certain that this time things will be different
+Most participants in creation new software are either blissfully ignorant of the past or recklessly confident of the future - blithely certain that this time things will be different
 
 The mantra that project leaders everywhere offer to try to clear the air of paralyzing memories: This time will be different.
 
