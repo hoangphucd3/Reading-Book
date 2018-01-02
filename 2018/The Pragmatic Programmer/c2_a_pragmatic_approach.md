@@ -11,11 +11,12 @@ You also need to think about maintaining flexibility in the areas of architectur
 Tracer code is not disposable: you write it for keeps. It contains all the error checking, structuring, documentation, and self-checking that any piece of production code has. It simply is not fully functional.
 
 The tracer code approach has many advantages:
-	- Users get to see something working early
-	- Developers build a structure to work in
-	- You have an integration platform
-	- You have something to demonstrate
-	- You have a better feel for progress
+- Users get to see something working early
+- Developers build a structure to work in
+- You have an integration platform
+- You have something to demonstrate
+- You have a better feel for progress
+
 ### Tracer Bullets Don’t Always Hit Their Target 
 Tracer bullets show what you’re hitting. This may not always be the target. You then adjust your aim until they’re on target. That’s the point. 
 
@@ -45,3 +46,24 @@ and there’s gas in the car, I should be there in 20 minutes.”
 ### Build a model of the system
 Often, the process of building the model leads to discoveries of underlying
 patterns and processes that weren’t apparent on the surface.
+
+### Break the Model into Components
+Once you have a model, you can decompose it into components. You’ll need to discover the mathematical rules that describe how these components interact.
+
+
+### Give Each Parameter a Value 
+Assign each parameter a value. The trick is to work out which parameters have the most impact on the result, and concentrate on getting them about right.
+
+#### Calculate the Answer
+Only in the simplest of cases will an estimate have a single answer. Run multiple calculations, varying the values of the critical parameters, until you work out which ones really drive the model. A spreadsheet can be a big help. Then couch your answer in terms of these parameters.
+
+### Keep Track of Your Estimating Prowess 
+When an estimate turns out wrong, don’t just shrug and walk away. 
+Maybe you chose some parameters that didn’t match the reality of the problem. Maybe your model was wrong. 
+Whatever the reason, take some time to uncover what happened
+
+### Estimating Project Schedules
+Repeating the following steps:
+- Check requirements
+- Analyze risk
+- Design, implement, integrate
