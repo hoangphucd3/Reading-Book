@@ -67,3 +67,4 @@ Repeating the following steps:
 - Check requirements
 - Analyze risk
 - Design, implement, integrate
+- Validate with the users
