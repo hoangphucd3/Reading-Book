@@ -54,3 +54,30 @@ are they the user interface. Requirements are need.
 Abstractions Live Longer than Details
 ```
 
+#### Maintain a Glossary
+
+```
+Use a Project Glossary
+```
+
+## Solving Impossible Puzzles
+
+When you find yourself working on a problem that seems
+much harder than you thought it should be.
+
+That’s when you step back a pace and ask yourself these questions:
+- Is there an easier way?
+- Are you trying to solve the right problem, or have you been distracted by a peripheral technicality?
+- Why is this thing a problem?
+- What is it that’s making it so hard to solve?
+- Does it have to be done this way?
+- Does it have to be done at all?
+
+## Not Until You're Ready
+
+How can you tell when you’re simply procrastinating, rather
+than responsibly waiting for all the pieces to fall into place?
+
+A technique that has worked for us in these circumstances is to start
+prototyping. Choose an area that you feel will be difficult and begin
+producing some kind of proof of concept.
