@@ -41,3 +41,12 @@ The second issue is more abstract.
 
 ### Hide data structures
 
+Direct references into complicated structures are confusing, they obscure what the data really is.
+
+You can use the Ruby `Struct` to wrap a structure.
+
+## Enforce single responsibility everywhere
+
+### Extract Extra Responsibilities from Methods
+
+
