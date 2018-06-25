@@ -20,3 +20,40 @@ Reducing dependencies means recognizing and remove the ones you don't need.
 ### Inject Dependencies
 
 Your class become less useful when it knows too much about other objects.
+
+### Isolate Depedencies
+
+While this is technically possible it may not be actually possible.
+
+If you cannot remove unnescesary dependencies, you should isolate them within your class.
+
+#### Isolate instance creation
+
+The intent is to explictity expose the dependcy while reducing its reach into your class.
+
+#### Isolate Vulnerable External Messages
+
+external messages that are sent to someone other than `self`.
+
+Any time you change anything you stand the chance of breaking it;
+
+This technique becomes necessary when a class contains embedded references to
+a message that is likely to change/
+
+### Remove Argument-Order Dependencies
+
+You often send arguments in a specific fixed order. If that order changes,
+all the senders will be forced to change.
+
+#### Use Hashes for Initialization Arguments
+
+Change the code to take a hash of options instead of a fixed list of parameters.
+
+This techique has several advantages. The first is that it removes every dependency on argument order.
+
+This technique adds verbosity.
+
+But is based on personal situation.
+
+#### Explicitly Define Defaults
+
