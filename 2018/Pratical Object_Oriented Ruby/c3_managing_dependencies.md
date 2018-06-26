@@ -57,3 +57,24 @@ But is based on personal situation.
 
 #### Explicitly Define Defaults
 
+### Managing Dependency Direction
+
+#### Reversing Dependencies
+
+#### Choosing Dependency Direction
+
+Three simple truths about code:
+
+- Some classes are more likely than others to have changes in requirements.
+- Concrete classes are more likely to change than abstract classes.
+- Changing a class that has many dependents will result in widespread consequences.
+
+The term `abstract` represents an idea about code as opposed to a specific technical restriction.
+
+The abstraction was harvested from a concrete class; the idea is now 'disasociated from any specific instance'.
+
+Abstractions represent common, stable qualities. They are less likely to change.
+
+Depending on an abstraction is always better safer than depending on a concretion because by its very nature.
+
+
