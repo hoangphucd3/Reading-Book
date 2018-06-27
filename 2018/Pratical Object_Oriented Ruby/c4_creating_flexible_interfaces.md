@@ -34,3 +34,10 @@ in your DB.
 
 ### Using Sequence Diagrams
 
+The message-based perspective yields more flexible applications than does the class-based perspective.
+
+### Asking for “What” Instead of Telling “How”
+Context. Example, `Trip` expect to be holding onto a `Mechanic` object that can respond to some method calls.
+
+Objects that have a simple context area easy to resuse.
+Objects that have a complicated context are hard to use and hard to test.
