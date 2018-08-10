@@ -1,3 +1,5 @@
+Collboration between each objects create dependencies.
+
 ## Understanding Dependencies
 
 ### Recognizing Dependencies
@@ -26,6 +28,9 @@ Your class become less useful when it knows too much about other objects.
 While this is technically possible it may not be actually possible.
 
 If you cannot remove unnescesary dependencies, you should isolate them within your class.
+
+Dependencies are foreign invaders that represent vulnerabilities, and they should be
+conside, explicit, and isolated.
 
 #### Isolate instance creation
 
