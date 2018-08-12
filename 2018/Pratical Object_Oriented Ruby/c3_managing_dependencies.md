@@ -42,6 +42,9 @@ external messages that are sent to someone other than `self`.
 
 Any time you change anything you stand the chance of breaking it;
 
+You can reduce your chance of being forced to make a chage by removing the external dependency
+and encapsulating it in a method of its own.
+
 This technique becomes necessary when a class contains embedded references to
 a message that is likely to change/
 
@@ -54,13 +57,27 @@ all the senders will be forced to change.
 
 Change the code to take a hash of options instead of a fixed list of parameters.
 
-This techique has several advantages. The first is that it removes every dependency on argument order.
+The first advantage is that it removes every dependency on argument order.
 
-This technique adds verbosity.
+This technique adds verbosity. It exists at the intersection between the needs of the present
+and the uncertainty of the future.
+
+The secondary benefit: The `key` name in the hash furnish explicit documentation about the arguments.
 
 But is based on personal situation.
 
 #### Explicitly Define Defaults
+
+This is a common technique but one you should you use with cautions;
+
+Where you need to distinguish between `false` and `nil`, it's better to use the `fetch` method to set defaults.
+
+You can also completely remove the defaults from `initialize` and isolate them inside of a separate wrapping method.
+
+### Isolate Multiparameter Initialization
+
+Sometimes you will be forced to depend on a method that requires fixed-order arguments where you do not own
+and thus cannot change the method itself.
 
 ### Managing Dependency Direction
 
