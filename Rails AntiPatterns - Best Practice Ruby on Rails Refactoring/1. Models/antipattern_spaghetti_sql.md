@@ -3,9 +3,11 @@
 Many times we’ve come across code like the following:
 
 ```ruby
-class PetsController < ApplicationController def show
-  @pet = Pet.find(params[:id])
-  @toys = Toy.where(:pet_id => @pet.id, :cute => true) end
+class PetsController < ApplicationController
+  def show
+    @pet = Pet.find(params[:id])
+    @toys = Toy.where(:pet_id => @pet.id, :cute => true)
+  end
 end
 ```
 
@@ -13,10 +15,11 @@ One of the issues with this action is that it's doing a custom find call that ri
 You should fix this quickly so we can dig into the real underlying issue:
 
 ```ruby
-class PetsController < ApplicationController def show
-  @pet = Pet.find(params[:id])
-  @toys = Toy.find_cute_for_pet(@pet) end
-end
+class PetsController < ApplicationController
+  def show
+    @pet = Pet.find(params[:id])
+    @toys = Toy.find_cute_for_pet(@pet) end
+  end
 
 class Toy < ActiveRecord::Base 
   def self.find_cute_for_pet(pet)
